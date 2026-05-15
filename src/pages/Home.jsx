@@ -14,7 +14,7 @@ const Home = () => {
             Take Back Control of Your <span className="text-primary">Restaurant Delivery</span>
           </h1>
           <p className="subtitle hero-subtitle">
-            Accept direct online orders, integrate seamlessly with your POS, and keep 100% of your profits. Get your own branded ordering system today.
+            PlatIQ helps restaurant brands control ordering, streamline operations, and grow customer relationships from one platform.
           </p>
           <div className="hero-actions">
             <Link to="/contact" className="btn btn-primary">
