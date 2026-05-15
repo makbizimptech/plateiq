@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2, Store, LineChart, Cpu, ShoppingBag } from 'lucide-react';
+import SavingsCalculator from '../components/SavingsCalculator';
 import './Home.css';
 
 const Home = () => {
@@ -17,14 +18,17 @@ const Home = () => {
           </p>
           <div className="hero-actions">
             <Link to="/contact" className="btn btn-primary">
-              Start Your Free Trial <ArrowRight size={18} style={{ marginLeft: '8px' }} />
+              Book a Demo <ArrowRight size={18} style={{ marginLeft: '8px' }} />
             </Link>
-            <Link to="/contact" className="btn btn-outline">
-              Book a Demo
+            <Link to="/features" className="btn btn-outline">
+              Explore Features
             </Link>
           </div>
         </div>
       </section>
+
+      {/* Savings Calculator Section */}
+      <SavingsCalculator />
 
       {/* How it Works Section */}
       <section className="steps-section">
@@ -81,7 +85,7 @@ const Home = () => {
                   'Real-time order management dashboard',
                   'Seamless POS system integration',
                   'Customer data ownership & reporting',
-                  'Automated marketing & loyalty tools',
+                  'Commission-free driver dispatch',
                   'Mobile-optimized ordering experience'
                 ].map((feature, i) => (
                   <div key={i} className="feature-item">

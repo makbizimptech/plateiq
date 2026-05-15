@@ -8,8 +8,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
-            <img src="/logo.png" alt="PlateiQ Icon" style={{ height: '32px', width: 'auto', backgroundColor: '#FFFFFF', padding: '4px', borderRadius: '4px' }} />
-            <span>Platei<span className="text-primary">Q</span></span>
+            <img src="/logo1.png" alt="PlateiQ Icon" style={{ height: '56px', width: 'auto', backgroundColor: '#FFFFFF', padding: '4px', borderRadius: '4px' }} />
           </Link>
           <p className="footer-tagline">Powering Restaurants with Smart Ordering.</p>
           <div className="footer-socials">

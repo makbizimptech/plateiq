@@ -49,6 +49,16 @@
   box-shadow: var(--shadow-sm);
 }
 
+.feature-block > div:not(.feature-block-img) {
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .feature-block > div:not(.feature-block-img) {
+    padding: 0;
+  }
+}
+
 /* Pricing Cards */
 .pricing-grid {
   display: grid;

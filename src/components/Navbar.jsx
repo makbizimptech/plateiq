@@ -6,8 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src="/logo.png" alt="PlateiQ Icon" style={{ height: '32px', width: 'auto' }} />
-          <span>Platei<span className="text-primary">Q</span></span>
+          <img src="/logo1.png" alt="PlateiQ Icon" style={{ height: '56px', width: 'auto' }} />
         </Link>
         <div className="navbar-links">
           <Link to="/features" className="nav-link">Features</Link>
@@ -16,7 +15,7 @@ const Navbar = () => {
           <Link to="/contact" className="nav-link">Contact</Link>
         </div>
         <div className="navbar-actions">
-          <Link to="/contact" className="btn btn-primary">Start Free Trial</Link>
+          <Link to="/contact" className="btn btn-primary">Book a Demo</Link>
         </div>
       </div>
     </nav>
