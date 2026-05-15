@@ -10,7 +10,7 @@ const Footer = () => {
           <Link to="/" className="footer-logo">
             <img src="/logo1.png" alt="PlatIQ Icon" style={{ height: '56px', width: 'auto', backgroundColor: '#FFFFFF', padding: '4px', borderRadius: '4px' }} />
           </Link>
-          <p className="footer-tagline">Powering Restaurants with Smart Ordering.</p>
+          <p className="footer-tagline">Run Better. Grow Smarter.</p>
           <div className="footer-socials">
             <a href="#" aria-label="Twitter"><Twitter size={20} /></a>
             <a href="#" aria-label="LinkedIn"><Linkedin size={20} /></a>
