@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
-            <img src="/logo1.png" alt="PlateiQ Icon" style={{ height: '56px', width: 'auto', backgroundColor: '#FFFFFF', padding: '4px', borderRadius: '4px' }} />
+            <img src="/logo1.png" alt="PlatIQ Icon" style={{ height: '56px', width: 'auto', backgroundColor: '#FFFFFF', padding: '4px', borderRadius: '4px' }} />
           </Link>
           <p className="footer-tagline">Powering Restaurants with Smart Ordering.</p>
           <div className="footer-socials">
@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <div className="container">
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} PlateiQ. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PlatIQ. All rights reserved.</p>
         </div>
       </div>
     </footer>

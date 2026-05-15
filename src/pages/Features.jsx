@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <h1 className="heading-1 page-title">Power Your Restaurant</h1>
           <p className="page-subtitle">
-            From smart ordering to seamless kitchen workflows, PlateiQ gives you all the tools required to scale without the commissions.
+            From smart ordering to seamless kitchen workflows, PlatIQ gives you all the tools required to scale without the commissions.
           </p>
         </div>
       </header>
@@ -33,7 +33,7 @@ const Features = () => {
             <div style={{ color: 'var(--primary)', marginBottom: '1rem' }}><LinkIcon size={40} /></div>
             <h2 className="heading-2">POS Integration</h2>
             <p className="subtitle" style={{ marginTop: '1rem' }}>
-              No more manual entry. PlateiQ integrates seamlessly with leading Point of Sale systems including Square, Toast, Clover, and Lightspeed. Orders flow directly into your existing workflow.
+              No more manual entry. PlatIQ integrates seamlessly with leading Point of Sale systems including Square, Toast, Clover, and Lightspeed. Orders flow directly into your existing workflow.
             </p>
           </div>
           <div className="feature-block-img" style={{ padding: '0', background: 'transparent', border: 'none', display: 'flex', alignItems: 'center' }}>
@@ -72,7 +72,7 @@ const Features = () => {
             <div style={{ color: 'var(--primary)', marginBottom: '1rem' }}><Truck size={40} /></div>
             <h2 className="heading-2">Commission-Free Delivery</h2>
             <p className="subtitle" style={{ marginTop: '1rem' }}>
-              Don't have your own drivers? No problem. PlateiQ seamlessly dispatches drivers from local networks for a flat, predictable fee. Offer delivery to your customers without sacrificing 30% of your order value.
+              Don't have your own drivers? No problem. PlatIQ seamlessly dispatches drivers from local networks for a flat, predictable fee. Offer delivery to your customers without sacrificing 30% of your order value.
             </p>
           </div>
           <div className="feature-block-img" style={{ padding: '0', background: 'transparent', border: 'none', display: 'flex', alignItems: 'center' }}>
@@ -84,7 +84,7 @@ const Features = () => {
       <section className="features-cta-section container" style={{ textAlign: 'center', padding: '4rem 0', marginTop: '2rem', borderTop: '1px solid var(--border)' }}>
         <h2 className="heading-2" style={{ marginBottom: '1rem' }}>Ready to Take Back Control?</h2>
         <p className="subtitle" style={{ marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
-          Join the restaurants that have switched to PlateiQ and start saving on every order today.
+          Join the restaurants that have switched to PlatIQ and start saving on every order today.
         </p>
         <Link to="/contact" className="btn btn-primary">Book a Demo</Link>
       </section>

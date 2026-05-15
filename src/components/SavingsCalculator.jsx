@@ -14,7 +14,7 @@ const SavingsCalculator = () => {
         <div className="calculator-card">
           <h2 className="heading-2 text-center" style={{ marginBottom: '1rem' }}>See How Much You'll Save</h2>
           <p className="subtitle text-center" style={{ marginBottom: '3rem', maxWidth: '600px', margin: '0 auto 3rem' }}>
-            Don't let third-party apps eat your margins. Calculate your savings with PlateiQ's 0% commission direct ordering.
+            Don't let third-party apps eat your margins. Calculate your savings with PlatIQ's 0% commission direct ordering.
           </p>
           
           <div className="calc-grid">
@@ -44,7 +44,7 @@ const SavingsCalculator = () => {
                 </div>
                 <div className="calc-vs">vs</div>
                 <div className="calc-plateiq">
-                  <div className="calc-result-label">PlateiQ (Flat Fee)</div>
+                  <div className="calc-result-label">PlatIQ (Flat Fee)</div>
                   <div className="calc-result-value">${plateIqFee}</div>
                 </div>
               </div>

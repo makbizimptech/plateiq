@@ -34,7 +34,7 @@ const Home = () => {
       <section className="steps-section">
         <div className="container">
           <div className="text-center">
-            <h2 className="heading-2">How PlateiQ Works</h2>
+            <h2 className="heading-2">How PlatIQ Works</h2>
             <p className="subtitle" style={{ maxWidth: '600px', margin: '1rem auto 0' }}>
               Launch your own zero-commission ordering platform in minutes, not weeks.
             </p>
@@ -78,7 +78,7 @@ const Home = () => {
             <div className="feature-content">
               <h2 className="heading-2">Everything you need to scale direct orders</h2>
               <p className="subtitle">
-                Stop paying exorbitant fees to delivery apps. PlateiQ provides the premium tools you need to run your own show.
+                Stop paying exorbitant fees to delivery apps. PlatIQ provides the premium tools you need to run your own show.
               </p>
               <div className="feature-list">
                 {[
@@ -118,7 +118,7 @@ const Home = () => {
         <div className="container">
           <h2 className="heading-1 cta-title" style={{ color: 'white' }}>Ready to boost your margins?</h2>
           <p className="subtitle" style={{ color: 'rgba(255, 255, 255, 0.9)', maxWidth: '600px', margin: '0 auto' }}>
-            Join thousands of restaurants who have taken back control of their online ordering with PlateiQ.
+            Join thousands of restaurants who have taken back control of their online ordering with PlatIQ.
           </p>
           <div className="cta-actions">
             <Link to="/contact" className="btn btn-white">Get Your Ordering System</Link>

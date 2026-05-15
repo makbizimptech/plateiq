@@ -6,7 +6,7 @@ const About = () => {
     <div className="page-wrapper">
       <header className="page-header">
         <div className="container">
-          <h1 className="heading-1 page-title">About PlateiQ</h1>
+          <h1 className="heading-1 page-title">About PlatIQ</h1>
           <p className="page-subtitle">
             Built by restaurant enthusiasts, for restaurant owners.
           </p>
@@ -33,7 +33,7 @@ const About = () => {
             <div className="step-icon-wrapper"><TrendingUp size={32} /></div>
             <h3 className="heading-3">Keep Your Money</h3>
             <p className="subtitle" style={{ marginTop: '0.5rem' }}>
-              The current third-party model is broken. 30% commissions are unsustainable for independent kitchens. PlateiQ is the solution.
+              The current third-party model is broken. 30% commissions are unsustainable for independent kitchens. PlatIQ is the solution.
             </p>
           </div>
           <div className="step-card">
