@@ -34,9 +34,9 @@ const Home = () => {
       <section className="steps-section">
         <div className="container">
           <div className="text-center">
-            <h2 className="heading-2">How PlatIQ Works</h2>
+            <h2 className="heading-2">One Connected System</h2>
             <p className="subtitle" style={{ maxWidth: '600px', margin: '1rem auto 0' }}>
-              Launch your own zero-commission ordering platform in minutes, not weeks.
+              Everything connected. Nothing fragmented.
             </p>
           </div>
           <div className="steps-grid">
